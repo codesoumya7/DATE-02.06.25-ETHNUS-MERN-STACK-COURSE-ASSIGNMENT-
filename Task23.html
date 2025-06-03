@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> task23</title>
+</head>
+<body>
+  <script>
+    let times = prompt("How many times to print?");
+    let text = prompt("What to print?");
+
+    if (isNaN(times) || times <= 0) {
+      document.write("Please enter a valid number.");
+    } else {
+      for (let i = 1; i <= times; i++) {
+        document.write(i + " " + text + "<br>");
+      }
+    }
+  </script>
+</body>
+</html>
